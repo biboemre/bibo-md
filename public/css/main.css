@@ -1,0 +1,279 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.baslik {
+  background-image: url("/public/img/thor-loveandthunder.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 20px;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.baslik2 {
+  background-image: url("/public/img/arkaplan.jpg");
+
+  background-size: cover;
+
+  padding: 20px;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 162.5px;
+  margin-right: 162.5px;
+
+  color: rgb(255, 255, 255);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  font-style: none;
+}
+
+.navbar-menu a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-menu a:hover {
+  color: yellow;
+}
+
+.navbar .navbar-title {
+  cursor: pointer;
+  width: 20%;
+}
+
+.navbar .navbar-title img {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration-line: none;
+}
+
+.navbar .navbar-menu {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu a {
+  margin: 0px 25px;
+  text-decoration-line: none;
+}
+
+.icerik {
+  width: 960px;
+  height: 384px;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+
+  margin: 0 auto;
+}
+
+.icerik h2 {
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 0px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.icerik .türü {
+  display: flex;
+  margin: 15px 0px 30px 0px;
+}
+
+.icerik .türü a {
+  color: rgb(255, 255, 255);
+  margin: 0px 15px 0px 0px;
+  font-size: 13px;
+
+  text-transform: uppercase;
+
+  text-decoration-line: none;
+}
+
+.icerik .where {
+  padding: 20px 0;
+}
+
+.icerik .button-trailer {
+  background-color: #e4bb23;
+  border-radius: 40px;
+  padding: 15px 50px;
+  font-size: 15px;
+  text-decoration: none;
+  text-decoration-style: solid;
+  color: #000;
+
+  display: inline-block;
+
+  transition: 0.8s;
+}
+
+.button-trailer:hover {
+  background-color: rgb(163, 79, 79);
+  z-index: 2;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.button-trailer i {
+  margin-left: 10px;
+}
+
+.icerik .where {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.icerik p:last-child {
+  color: #bc9a1d;
+}
+
+.icerik p {
+  margin: 14px 0;
+}
+
+.liste-menu {
+  list-style-type: none;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  height: 0px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 15px solid rgba(0, 0, 0, 0.08);
+
+  margin-block-start: 0em;
+  margin-bottom: 30px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  padding: 20px;
+  font-size: larger;
+}
+
+.liste .liste-menu .liste-menu-item a {
+  color: white;
+  text-decoration: none;
+
+  font-weight: 16px;
+
+  padding: 50px 50px;
+}
+.liste-menu-item:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  transform: scale(1.15);
+}
+.liste-menu li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.movie  {
+  background-color: black;
+  width: 230px;
+  height: 470px;
+  border-radius: 20px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.list-movies {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 160px;
+  padding-right: 160px;
+  box-sizing: border-box;
+}
+.movie img {
+  border-radius: 20px 20px 0 0;
+}
+.movie-poster img {
+  width: 100%;
+  height: 330px;
+}
+.movie-description p:last-child {
+  color: #e4bb23;
+}
+.movie:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  transform: scale(1.15);}
+i{
+  color: red; }
+
+.network {
+  position:absolute;
+  right: 0px;
+}
+
+footer {
+
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 150px;
+  padding-right: 150px;
+  box-sizing: border-box;
+}
+
+.network {
+  opacity: 1.0;
+}
+
+.network i {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.movie-footer:last-child {
+  font-weight: bold;
+
+}
